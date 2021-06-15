@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    width: 1000px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.v-navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+}
+
+.item {
+    background-color: wheat;
+    margin: 1px;
+    border: solid black 1px;
+}
